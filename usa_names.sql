@@ -69,3 +69,17 @@ SELECT *
 FROM tableA
 WHERE total<10
 ORDER BY total
+
+--find the longest name
+SELECT name,LENGTH(name) as len_name
+FROM tableA
+WHERE LENGTH(name) =
+(SELECT MAX(LENGTH(name)) 
+FROM tableA)
+
+--find the shortest name
+SELECT name,LENGTH(name) as len_name
+FROM tableA
+WHERE LENGTH(name) =
+(SELECT MIN(LENGTH(name)) 
+FROM tableA)
