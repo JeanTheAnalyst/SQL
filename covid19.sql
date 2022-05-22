@@ -1,4 +1,4 @@
----This dataset contains country-level datasets of daily time-series data related to COVID-19 globally. You can find the list of sources available here: https://github.com/open-covid-19/data 
+---This dataset contains country-level datasets of daily time-series data related to COVID-19 globally. You can find the list of sources available here: https://github.com/GoogleCloudPlatform/covid-19-open-data
 
 
 ---Aggregate the data by population, total_confirmed, total_deceased and fully_vaccianted 
